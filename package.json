@@ -1,5 +1,5 @@
 {
-  "name": "iwwa-lambda-readings-api",
+  "name": "iwwa-lambda-esm5k-readings-api",
   "version": "1.0.0",
   "description": "Pipe one kinesis stream into another",
   "main": "src/index.js",
