@@ -2,7 +2,7 @@
   "name": "iwwa-lambda-esm5k-readings-api",
   "version": "1.0.0",
   "description": "Pipe one kinesis stream into another",
-  "main": "src/index.js",
+  "main": "bundle/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/innowation/iwwa-lambda-esm5k-readings-api.git"
@@ -32,6 +32,7 @@
   },
   "scripts": {
     "build": "babel src -d bundle",
+    "start": "node bundle/index",
     "coveralls": "cat ./coverage/lcov.info | coveralls",
     "test": "gulp test",
     "lint": "gulp lint",
